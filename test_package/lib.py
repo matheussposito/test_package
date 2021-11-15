@@ -1,2 +1,5 @@
+from termcolor import colored
+
+
 def try_me():
-    return 'First package test by Matheus Sposito'
+    return colored('First package test by Matheus Sposito', 'magenta', attrs=['blink'])
